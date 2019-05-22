@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(harvard.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+}
+
+.login{
+    width: 320px;
+    height: 520px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+}
+
+h2{
+    margin: 60px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+
+table{
+    color: white;
+    text-align: center;
+}
+.login td{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid, #fff;
+    background: white;
+    outline: none;
+    height: 30px
+}
+
+.login input[type="submit"]{
+    border: 100%;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type="submit"]:hover{
+    curser: pointer;
+    background: #ffc107;
+    color: #000;
+}

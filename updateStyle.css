@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(harvard.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial;
+}
+
+.update{
+    width: 320px;
+    height: 520px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+}
+
+h2{
+    margin: 60px;
+    padding: 0px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.update input{
+    width: 80%;
+    margin-bottom: 0;
+    border: none;
+    background: white;
+    outline: none;
+    height: 30px;
+}
+
+.update input[type="submit"]{
+    border: 100%;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.update input[type="submit"]:hover{
+    curser: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.button{
+    position: absolute;
+    top: 15%;
+    left: 80%;
+
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    background: #fb2525;
+    color: #ffffff;
+    border-radius: 0;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background: orange;
+    color: white;
+}

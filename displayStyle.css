@@ -1,0 +1,60 @@
+body{
+    background: url("harvard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+h1{
+    font-size: larger;
+    font-family: sans-serif;
+    color: #f2fc1f;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    table-layout: auto;
+}
+table, tr, th, td{
+    padding: 20px;
+    color: white;
+    border: 1px solid 080808;
+    font-size: 14px;
+    font-family: Arial;
+    background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    border-collapse: collapse;
+}
+
+td:hover{
+    background: orange;
+}
+
+#button{
+    top: 15%;
+    left: 80%;
+
+}
+
+#btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    background: blue;
+    color: #ffffff;
+    border-radius: 0;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+#btn:hover{
+    background: orange;
+    color: white;
+}
+
+a{
+    color: red;
+    font-weight: bold;
+
+}

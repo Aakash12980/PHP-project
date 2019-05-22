@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(harvard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    float: center;
+    margin: 10px ;
+    height: 150px;
+    background-position: left;
+
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+    font-family: Cambria;
+}
+
+.button{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    background: orange;
+    color: white;
+}
